@@ -8,7 +8,7 @@ const labWorks = [...Array(10)].map((_, i) => ({
   icon: SquareTerminal,
   items: [
     { title: "Умова", url: `/condition/${i + 1}` },
-    { title: "Результат", url: `/result/lab${i + 1}` },
+    { title: "Результат", url: `/result/${i + 1}` },
     { title: "Код", url: `/code/${i + 1}` },
   ],
 }));
