@@ -176,4 +176,10 @@ export const tasksLab5 = [
     details: [],
     images: ["/img/lab5/ex4.png"],
   },
+  {
+    title: "ChatApp",
+    description: "",
+    details: [],
+    images: ["/img/lab5/ex5.1.png", "/img/lab5/ex5.2.png"],
+  },
 ];
