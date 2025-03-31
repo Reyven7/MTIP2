@@ -2,8 +2,13 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-// Імпорти масивів завдань
-import { tasksLab1, tasksLab2, tasksLab3, tasksLab4 } from "@/data/tasks";
+import {
+  tasksLab1,
+  tasksLab2,
+  tasksLab3,
+  tasksLab4,
+  tasksLab5,
+} from "@/data/tasks";
 
 const ResultPage = () => {
   const { num } = useParams<{ num?: string }>();
@@ -22,6 +27,9 @@ const ResultPage = () => {
         break;
       case "4":
         setTasks(tasksLab4);
+        break;
+      case "5":
+        setTasks(tasksLab5);
         break;
       default:
         setTasks([]);

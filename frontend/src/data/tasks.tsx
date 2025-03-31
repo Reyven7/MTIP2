@@ -151,3 +151,29 @@ export const tasksLab4 = [
     images: ["/img/lab4/ex2.1.png"],
   },
 ];
+export const tasksLab5 = [
+  {
+    title: "1. Розробити API",
+    description: "Розроблене API ",
+    details: ["Відображення через Swagger"],
+    images: ["/img/lab5/ex1.png"],
+  },
+  {
+    title: "2. Реалізувати аутентифікацію за допомогою JWT",
+    description: [],
+    details: [],
+    images: ["/img/lab5/ex2.png"],
+  },
+  {
+    title: "3. Додати підтримку WebSockets для чату між користувачами",
+    description: "Створення hub для роботи з webservice",
+    details: [],
+    images: ["/img/lab5/ex3.png"],
+  },
+  {
+    title: "Документація Swagger",
+    description: "Частина отриманої документації в json вигляді",
+    details: [],
+    images: ["/img/lab5/ex4.png"],
+  },
+];
