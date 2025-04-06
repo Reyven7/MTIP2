@@ -8,6 +8,7 @@ import {
   tasksLab3,
   tasksLab4,
   tasksLab5,
+  tasksLab6,
 } from "@/data/tasks";
 
 const ResultPage = () => {
@@ -30,6 +31,9 @@ const ResultPage = () => {
         break;
       case "5":
         setTasks(tasksLab5);
+        break;
+      case "6":
+        setTasks(tasksLab6);
         break;
       default:
         setTasks([]);

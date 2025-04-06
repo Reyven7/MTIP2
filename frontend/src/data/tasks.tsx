@@ -183,3 +183,29 @@ export const tasksLab5 = [
     images: ["/img/lab5/ex5.1.png", "/img/lab5/ex5.2.png"],
   },
 ];
+export const tasksLab6 = [
+  {
+    title: "1.	Створити Dockerfile",
+    description: [],
+    details: [],
+    images: ["/img/lab6/ex1.png"],
+  },
+  {
+    title: "2.	Налаштувати Docker Compose",
+    description: [],
+    details: [],
+    images: ["/img/lab6/ex2.png"],
+  },
+  {
+    title: "3.	Розгорнути програму",
+    description: [],
+    details: [],
+    images: ["/img/lab6/ex3.png"],
+  },
+  {
+    title: "4.	Перевірити правильності роботи системи",
+    description: [],
+    details: [],
+    images: ["/img/lab6/ex4.1.png", "/img/lab6/ex4.2.png"],
+  },
+];
