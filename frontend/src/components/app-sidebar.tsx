@@ -2,7 +2,7 @@ import { SquareTerminal } from "lucide-react";
 import { Sidebar, SidebarContent } from "@/components/ui/sidebar";
 import { NavMain } from "@/components/nav-main";
 
-const labWorks = [...Array(10)].map((_, i) => ({
+const labWorks = [...Array(7)].map((_, i) => ({
   title: `Лабораторна робота №${i + 1}`,
   url: `/condition/${i + 1}`,
   icon: SquareTerminal,

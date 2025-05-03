@@ -209,3 +209,20 @@ export const tasksLab6 = [
     images: ["/img/lab6/ex4.1.png", "/img/lab6/ex4.2.png"],
   },
 ];
+
+export const tasksLab7 = [
+  {
+    title: "Простий веб додаток",
+    description: [
+      `Виводить надпис "Hello from Firebase Cloud Functions!" після натискання на кнопку`,
+    ],
+    details: [],
+    images: ["/img/lab7/ex1.png"],
+  },
+  {
+    title: "Запит",
+    description: [],
+    details: [],
+    images: ["/img/lab7/ex2.png"],
+  },
+];
